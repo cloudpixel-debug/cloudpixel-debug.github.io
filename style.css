@@ -1,0 +1,39 @@
+/* so schreibt man bei css einen Kommentar
+selektor{    
+eigenschaft: wert}
+*/
+/* das Sternchen selektriert alle Elemente */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(253, 177, 249);
+  background-color: rgba(14, 88, 64, 0.849);
+  width: 600px;
+
+  padding: 12px;
+  border: 2px rgb(158, 149, 236) solid;
+}
+p {
+  color: brown;
+  background-color: rgb(219, 117, 27);
+  width: 600px;
+}
+/* ID wirklich nur für ein Element, sonst class */
+#wichtig {
+  color: rgb(92, 4, 4);
+  background-color: rgb(105, 177, 117);
+  width: 600px;
+}
+.farbig {
+  color: rgb(57, 68, 107);
+  background-color: rgb(225, 203, 245);
+}
+a {
+  color: black;
+  text-decoration: none;
+}
